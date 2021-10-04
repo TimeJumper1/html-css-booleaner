@@ -11,6 +11,7 @@ header{
     background-color: #4ea0ff;
     text-align: left;
     
+    
 }
 /* header logo */
 .logo{
@@ -18,40 +19,66 @@ header{
     margin-top: 4%;
     margin-left: 10px;
 }
+/* div principale */
 .container{
-    margin: 10px;
-    margin-right: 30%;
+    margin: 20px;
+    box-sizing: border-box;
+   
 }
+/* titolo */
 h1{
     font-size: 40px;
 }
+/* scritte sotto il titolo */
 .author{
     color:#c4c4c4 ;
 }
+/* scritta sotto il titolo "the booleaner" */
 .tb{
     color: #4ebbeb;
 }
+/* riferimenti sotto foto tim */
 .sotto-foto{
     font-size: 15px;
 }
+/* evidenziatura scritte paragrafi */
 .background{
     background-color: yellow;
     
 }
+/*impaginazione paragrafi */
 p{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
+/* impaginazione lista */
 .list{
     margin-left:15px ;
     margin-bottom: 20px;
 }
+/* tabella */
 .thead{
     background-color: #20a9e5;
+    color: white;
+    
 }
 .tr{
     background-color: #b1e5f2;
+    
 }
+th{
+    text-align: left;
+}
+table{
+    border-spacing: 0px;
+}
+.td{
+    height: 10px;
+    width: 200px;
+}
+
+}
+/* footer */
 .foot{
     color: lightgray;
     font: arial;
