@@ -10,20 +10,21 @@ header{
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
     text-align: left;
+    background-size: 30%;
     
     
 }
 /* header logo */
 .logo{
-    width: 200px;
-    margin-top: 4%;
+    width: 250px;
+    margin-top: 3%;
     margin-left: 10px;
 }
 /* div principale */
 .container{
-    margin: 20px;
+    width: 90%;
     box-sizing: border-box;
-   
+    margin: 20px;
 }
 /* titolo */
 h1{
@@ -40,6 +41,9 @@ h1{
 /* riferimenti sotto foto tim */
 .sotto-foto{
     font-size: 15px;
+}
+.foto-tim{
+    margin-top: 15px;
 }
 /* evidenziatura scritte paragrafi */
 .background{
@@ -70,14 +74,14 @@ th{
     text-align: left;
 }
 table{
-    border-spacing: 0px;
+    border-collapse: collapse;
 }
 .td{
     height: 10px;
     width: 200px;
 }
 
-}
+
 /* footer */
 .foot{
     color: lightgray;
